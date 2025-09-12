@@ -1,8 +1,8 @@
-import CreatePurchase from "../../application/use-cases/CreatePurchase.js";
-import GetPurchaseById from "../../application/use-cases/GetPurchaseById.js";
-import GetPurchases from "../../application/use-cases/GetPurchases.js";
-import UpdatePurchase from "../../application/use-cases/UpdatePurchases.js"
-import DeletePurchase from "../../application/use-cases/DeletePurchase.js"
+import CreatePurchase from "../../application/use-cases/purchases/CreatePurchase.js";
+import GetPurchaseById from "../../application/use-cases/purchases/GetPurchaseById.js";
+import GetPurchases from "../../application/use-cases/purchases/GetPurchases.js";
+import UpdatePurchase from "../../application/use-cases/purchases/UpdatePurchases.js"
+import DeletePurchase from "../../application/use-cases/purchases/DeletePurchase.js"
 
 import PurchaseRepositoryMongo from "../repositories/PurchaseRepositoryMongo.js";
 

@@ -43,4 +43,5 @@ class PurchaseRepositoryMongo {
   }
 }
 
+
 export default PurchaseRepositoryMongo;

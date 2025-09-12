@@ -3,9 +3,9 @@ import { createPurchase, getPurchases, getPurchaseById, updatePurchase } from ".
 
 const router = Router();
 
-router.post("/", createPurchase);
-router.get("/", getPurchases);
-router.get("/:id", getPurchaseById);
-router.put("/:id", updatePurchase);
+router.post("/purchase/", createPurchase);
+router.get("/purchases/", getPurchases);
+router.get("/purchases/:id", getPurchaseById);
+router.put("/purchases/:id", updatePurchase);
 
 export default router;
