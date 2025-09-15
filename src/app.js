@@ -6,6 +6,6 @@ const PORT = process.env.PORT || 3000;
 
 connectDB().then(() => {
     app.listen(PORT, () => {
-        console.log(`Servidor ejecutándose en el puerto: http://${PORT}`);
+        console.log(`Servidor ejecutándose en el puerto: http://localhost:${PORT}/api/`);
     });
 });
