@@ -24,6 +24,14 @@ class UserRepositoryMongo {
     async findById(id){
       return await UserModel.findById(id);
     }
+
+    async update(id, userData) {
+      return await UserModel.findByIdAndUpdate(id, userData, { new: true });
+    }
+
+    async delete(id) {
+    return await UserModel.findByIdAndDelete(id);
+  }
 }
 
 export default UserRepositoryMongo;
